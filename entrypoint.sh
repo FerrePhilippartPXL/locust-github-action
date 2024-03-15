@@ -17,4 +17,4 @@ else
 fi
 
 # Run locust script
-locust -f $file --csv LoadTest --headless -t10m -u $INPUT_USERS -r $INPUT_RATE --run-time $INPUT_RUNTIME -H $INPUT_URL
+locust -f $file --csv testresults/LoadTest --headless -t10m -u $INPUT_USERS -r $INPUT_RATE --run-time $INPUT_RUNTIME -H $INPUT_URL
